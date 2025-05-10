@@ -14,8 +14,9 @@ This repository contains a Docker-based setup for running Puppeteer on AWS Lambd
 
 ### 2. Configure AWS ECR Repository
 
-1. Open `build.sh` and update the following variables:
+1. Open `build.sh` and update the following:
    - `ECR_REPOSITORY`: Your ECR repository name
+   - Change AWS Region
 
 ### 3. Build and Deploy
 
