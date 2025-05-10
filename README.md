@@ -1,6 +1,6 @@
 # Puppeteer Lambda Docker
 
-This repository contains a Docker-based setup for running Puppeteer on AWS Lambda.
+This repository contains a Docker-based setup for running Puppeteer on AWS Lambda in 2025.
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ This will:
 1. Go to AWS Lambda Console
 2. Click "Create function"
 3. Select "Container image" as the source
-4. Choose "Browse images" and select your ECR repository
+4. Choose "Browse images" and select your ECR repository and corresponding container
 5. Configure the function:
    - Function name: Choose a name
    - Runtime: Node.js 20.x | IMPORTANT
